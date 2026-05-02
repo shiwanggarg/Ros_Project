@@ -155,7 +155,7 @@ output = Kp*error + Ki*∫error·dt + Kd*(Δerror/Δt)
 - Tuned gains: `Kp=1.2, Ki=0.01, Kd=0.05`
 - Subscribes to `/cmd_vel`, publishes corrected velocity
 - Anti-windup clamping on integral term
-> See [`docs/system.md#-pid-controller`](docs/system.md#-pid-controller) for full derivation and tuning notes.
+> See [PID Controller](docs/system.md#-pid-controller) for full derivation and tuning notes.
  
 ---
  
