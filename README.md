@@ -79,7 +79,7 @@ The robot can:
  
 <p align="center">
   <img src="assets/gazebo_world_top.png" alt="Gazebo Apartment Top View" width="48%"/>
-  <img src="assets/gazebo_world_perspective.png" alt="Gazebo Apartment Perspective" width="48%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/4acdf44386961f832da99d38997b6b5e96aca68c/media/Gazebo%20Apartment%20Perspective.jpeg" alt="Gazebo Apartment Perspective" width="48%"/>
 </p>
 <p align="center"><em>Custom apartment world — top view (left) · perspective view (right)</em></p>
 A hand-crafted `.world` file featuring:
