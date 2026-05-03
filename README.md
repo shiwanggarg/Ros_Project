@@ -78,7 +78,7 @@ The robot can:
 ## 🌍 Gazebo Environment
  
 <p align="center">
-  <img src="assets/gazebo_world_top.png" alt="Gazebo Apartment Top View" width="48%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/d5bc4467c62b1adb42656ada9ef455ef78db8f80/media/Gazebo_Apartment_Top_view.jpeg" alt="Gazebo Apartment Top View" width="48%"/>
   <img src="https://github.com/shiwanggarg/Ros_Project/blob/4acdf44386961f832da99d38997b6b5e96aca68c/media/Gazebo%20Apartment%20Perspective.jpeg" alt="Gazebo Apartment Perspective" width="48%"/>
 </p>
 <p align="center"><em>Custom apartment world — top view (left) · perspective view (right)</em></p>
@@ -91,8 +91,8 @@ A hand-crafted `.world` file featuring:
 ## 🤖 Robot Model
  
 <p align="center">
-  <img src="assets/robot_rviz.png" alt="Robot in RViz with TF" width="48%"/>
-  <img src="assets/robot_model_closeup.png" alt="Robot Model Close-up" width="48%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/16d007808f9356840d74c2991802b787050d9a30/media/rviz.jpeg" alt="Robot in RViz with TF" width="48%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/16d007808f9356840d74c2991802b787050d9a30/media/robot_in_gazebo.jpeg" alt="Robot Model Close-up" width="48%"/>
 </p>
 <p align="center"><em>RViz view with TF frames (left) · Robot model close-up in Gazebo (right)</em></p>
 - **4-wheel chassis** — 2 active drive wheels + 2 passive casters
@@ -104,12 +104,12 @@ A hand-crafted `.world` file featuring:
 ## 🗺️ SLAM Mapping
  
 <p align="center">
-  <img src="assets/slam_mapping_rviz.png" alt="SLAM Mapping in RViz" width="60%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/92bd4eace07ca4a2e4d194157f3f28fad5a0dd02/media/slam_before_tracing.jpeg" alt="SLAM Mapping in RViz" width="60%"/>
 </p>
 <p align="center"><em>Real-time occupancy grid map being built during teleoperation</em></p>
 <p align="center">
-  <img src="assets/slam_map_final.png" alt="Final SLAM Map" width="45%"/>
-  <img src="assets/slam_map_3d.png" alt="SLAM Map 3D View" width="45%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/92bd4eace07ca4a2e4d194157f3f28fad5a0dd02/media/slam_after_tracing.jpeg" alt="Final SLAM Map" width="45%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/92bd4eace07ca4a2e4d194157f3f28fad5a0dd02/media/slam_model%20_closeup.jpeg" alt="SLAM Map 3D View" width="45%"/>
 </p>
 <p align="center"><em>Final saved occupancy grid map (left) · 3D RViz map overlay (right)</em></p>
 - Uses **`slam_toolbox`** in online asynchronous mode
@@ -125,7 +125,7 @@ ros2 run nav2_map_server map_saver_cli -f ~/maps/apartment_map
 ## 🚀 Autonomous Navigation (Nav2)
  
 <p align="center">
-  <img src="assets/nav2_trajectory.png" alt="Nav2 Navigation Trajectory" width="60%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/dab297f323694719df57226cb3f939a4bd55b0b5/media/nav2_trajectory.jpeg" alt="Nav2 Navigation Trajectory" width="60%"/>
 </p>
 <p align="center"><em>Nav2 planned path and real-time trajectory during autonomous navigation</em></p>
 **Nav2 Stack Components:**
@@ -162,7 +162,7 @@ output = Kp*error + Ki*∫error·dt + Kd*(Δerror/Δt)
 ## 🖥️ Project Structure in VS Code
  
 <p align="center">
-  <img src="assets/vscode_structure.png" alt="VS Code Project Structure" width="70%"/>
+  <img src="https://github.com/shiwanggarg/Ros_Project/blob/ea667ab733d3834f9899c73b82384d777309ef72/media/vs_code_structure.jpeg" alt="VS Code Project Structure" width="70%"/>
 </p>
 <p align="center"><em>ROS2 workspace layout in VS Code with WSL Ubuntu 22.04</em></p>
 ---
@@ -302,10 +302,11 @@ rviz2 -d config/nav_view.rviz
  
 ## 👤 Contributors
  
-| Name | Role |
+| Name | Roll Number |
 |---|---|
-| **Pranjal** | Full project — design, simulation, SLAM, Nav2, PID |
- 
+| **Pranjal  Garg** | 102323055 |
+| **Shiwang Garg** | 102323053 |
+| **Saam Gupta** | 102323056 |
 ---
  
 ## 📄 License
